@@ -1,3 +1,16 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+.btn {
+  background-color: lightslategray;
+}
+
 #results {
   display: none;
 }

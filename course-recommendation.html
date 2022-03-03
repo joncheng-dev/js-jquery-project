@@ -12,14 +12,38 @@
       <!-- Title & Introduction -->
       <h1>Course Recommendation Selector</h1>
       <p>
-        Answer the questions below to find out which course is best for you.
+        Answer the questions below to find out which course is right for you.
       </p>
-      <div>
+      <div class="col-md-6">
         <form id="survey">
           <!-- Type in Form: Gather information from user -->
+          <h5>STUDY LEVEL</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="studyLevel" value="bachelors" />
+              Bachelors</label
+            >
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="studyLevel" value="masters" /> Masters
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="studyLevel" value="phd" /> PHD
+            </label>
+          </div>
           <!-- Survey questions here. -->
           <!-- Submit button at the end of form. -->
+          <button type="submit" class="btn">Submit</button>
         </form>
+      </div>
+      <div class="col-md-6">
+        <img
+          src="img/student.svg"
+          alt="A person sitting in front of a computer"
+        />
       </div>
       <div id="results">
         <p>
