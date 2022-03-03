@@ -14,36 +14,105 @@
       <p>
         Answer the questions below to find out which course is right for you.
       </p>
-      <div class="col-md-6">
-        <form id="survey">
-          <!-- Type in Form: Gather information from user -->
-          <h5>STUDY LEVEL</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="studyLevel" value="bachelors" />
-              Bachelors</label
-            >
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="studyLevel" value="masters" /> Masters
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="studyLevel" value="phd" /> PHD
-            </label>
-          </div>
-          <!-- Survey questions here. -->
-          <!-- Submit button at the end of form. -->
-          <button type="submit" class="btn">Submit</button>
-        </form>
-      </div>
-      <div class="col-md-6">
-        <img
-          src="img/student.svg"
-          alt="A person sitting in front of a computer"
-        />
+      <div class="row">
+        <div class="col-md-6">
+          <form id="survey">
+            <!-- Form: Gather information from user -->
+            <!-- Question about Study Level -->
+            <h5>STUDY LEVEL</h5>
+            <div class="radio">
+              <label>
+                <input
+                  type="radio"
+                  name="studyLevel"
+                  value="bachelors"
+                  checked
+                />
+                Bachelors</label
+              >
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="studyLevel" value="masters" /> Masters
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="studyLevel" value="phd" /> PHD
+              </label>
+            </div>
+            <br />
+            <!-- Question about Learning Type -->
+            <h5>LEARNING TYPE</h5>
+            <div class="radio">
+              <label>
+                <input
+                  type="radio"
+                  name="learningType"
+                  value="full-time"
+                  checked
+                />
+                Full-time
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="learningType" value="online" />
+                Online
+              </label>
+            </div>
+            <br />
+            <!-- Question about Nationality -- use Select List -->
+            <h5>NATIONALITY</h5>
+            <select class="form-control" id="nationality">
+              <option>American Samoa</option>
+              <option>Andorra</option>
+              <option>Angola</option>
+              <option>Anguilla</option>
+              <option>Antarctica</option>
+              <option>Angigua and Barbuda</option>
+            </select>
+            <br />
+            <!-- Question about Destination -->
+            <h5>DESTINATION</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="destination" value="usa" /> USA</label
+              >
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="destination" value="uk" /> UK
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="destination" value="australia" />
+                Australia
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="destination" value="new-zealand" />
+                New Zealand
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="destination" value="canada" /> Canada
+              </label>
+            </div>
+            <br />
+            <!-- Submit button at the end of form. -->
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="img/student.svg"
+            alt="A person sitting in front of a computer"
+          />
+        </div>
       </div>
       <div id="results">
         <p>
