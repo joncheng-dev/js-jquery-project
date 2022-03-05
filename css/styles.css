@@ -26,3 +26,8 @@
 .btn {
   background-color: gray;
 }
+
+#siteContent,
+#under17 {
+  display: none;
+}

@@ -17,13 +17,6 @@
       <div class="jumbotron">
         <h1>Elden Ring</h1>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <!-- Ask date of birth. If older than 17, let in. If not, out. -->
       <div class="row" id="gateKeeper">
         <!-- Makes three columns so the date input form is in center -->
@@ -31,20 +24,26 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title">Enter Your Date of Birth</h2>
+              <h2 class="card-title">Enter Your Age:</h2>
               <!-- Collects user's date of birth -->
               <form id="dob">
                 <div class="form-group">
-                  <label for="born"></label>
-                  <input id="born" class="form-control" type="date" />
+                  <label for="userAge"></label>
+                  <input id="userAge" class="form-control" type="text" />
                 </div>
-                <!-- Button for submit -->
                 <button type="submit" class="btn">Submit</button>
               </form>
             </div>
           </div>
         </div>
         <div class="col-md-4"></div>
+      </div>
+      <div id="siteContent">
+        <h1>Site Content</h1>
+      </div>
+      <div id="under17">
+        <h1>Sorry, you are not old enough to play this game.</h1>
+        <p>Ever heard of Fortnite?</p>
       </div>
     </div>
   </body>
