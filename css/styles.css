@@ -1,16 +1,28 @@
-body {
-  background-color: lightgrey;
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
 }
 
-h1 {
+#bg img {
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#gateKeeper {
+  display: show;
   text-align: center;
-  margin-bottom: 2.5%;
 }
 
 .btn {
-  background-color: lightslategray;
-}
-
-#results {
-  display: none;
+  background-color: gray;
 }
