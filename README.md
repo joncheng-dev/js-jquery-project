@@ -1,37 +1,31 @@
-# _{Application Name}_
+# _Class Recommender_
 
-#### By _**{List of contributors}**_
+#### By _**Jonathan Cheng**_
 
-#### _{Brief description of application}_
+#### _A website for recommending a class to play on Elden Ring based on user responses._
 
 ## Technologies Used
 
-- _List all_
-- _the major technologies_
-- _you used in your project_
-- _here_
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- JQuery
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This browser application first asks for the user's age. It then branches to allow or disallow use of site depending on age entered (17 or older = allow). The user answers a questionnaire, which then recommends a class for the game Elden Ring based on their responses._
 
 ## Setup/Installation Requirements
 
-- _This is a great place_
-- _to list setup instructions_
-- _in a simple_
-- _easy-to-understand_
-- _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+- _Clone this repository to your desktop._
+- _Navigate to the top level of the directory._
+- _Open course-recommendation.html with your browser._
 
 ## Known Bugs
 
-- _Any known issues_
-- _should go here_
+- _Background color of welcome page does not fill the whole page from top to bottom._
+- _"Enter your age" box should be placed at the center of the page, rather than towards the top._
+- _Questionnaire does not currently provide an accurate recommendation of classes. It's completed so that project requirements are met._
 
-## License
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
-
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _2022_ _Jonathan Cheng_
