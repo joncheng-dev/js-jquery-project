@@ -35,7 +35,7 @@ h1 {
 }
 
 #gateKeeper {
-  display: none;
+  display: show;
   text-align: center;
 }
 
@@ -51,13 +51,16 @@ h1 {
 }
 
 .btn {
-  background-color: gray;
+  background-color: darkgray;
+  font-size: larger;
+  float: right;
 }
 
+#siteContent,
 #under17 {
   display: none;
 }
 
-#siteContent {
-  display: show;
+#classRecommendation {
+  display: none;
 }
