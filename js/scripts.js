@@ -15,4 +15,6 @@ $(document).ready(function () {
 
     event.preventDefault();
   });
+
+  const answer1 = $("input:radio[name=question1]:checked").val();
 });
