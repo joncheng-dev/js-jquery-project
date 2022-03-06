@@ -81,127 +81,160 @@
           </div>
         </div>
         <br />
-        <!-- Question 1 -->
-        <h3>In fights, I prefer to..</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="1" checked /> Move head
-            on in -- Melee
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="2" /> Keep a distance --
-            Ranged
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="3" /> Have options --
-            Hybrid of Melee & Ranged
-          </label>
-        </div>
+        <h1>Find out by answering the questionnaire below:</h1>
         <br />
-        <!-- Question 2 -->
-        <h3>
-          Do you prefer traditional weapons (swords & bows), or depend on magic?
-        </h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="1" checked /> Magic
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="2" /> A bit of both
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="3" /> Traditional
-          </label>
-        </div>
-        <!-- Question 3 -->
-        <h3>
-          Health Points: Do you prefer to survive by sneaking, staying out of
-          range, reflex and speed, or having enough health to take more hits?
-        </h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="1" checked /> Low HP
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="2" /> Medium HP
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="3" /> High HP
-          </label>
-        </div>
-        <!-- Question 4 -->
-        <h3>
-          Customizability: How much freedom do you want in customizing your
-          build?
-        </h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="1" checked /> Low. What
-            you start with is what you get.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="2" /> Medium. You have
-            options to branch out and choose your specialization.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="3" /> High. Develop your
-            character as you like.
-          </label>
-        </div>
-        <!-- Question 5 -->
-        <h3>Equipment load. Are you a packrat?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="1" checked /> Light
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="2" /> Medium
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="3" /> Heavy
-          </label>
-        </div>
-        <!-- Question 6 -->
-        <h3>
-          "How comfortable are you with Souls-like RPG games? (Souls-like RPG: a
-          subgenre of Role Playing Games that puts emphasis on dodging and
-          moving over other mechanics)"
-        </h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question6" value="1" checked /> New Player
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question6" value="2" /> Veteran
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question6" value="3" /> Advanced
-          </label>
-        </div>
+        <form id="gameplaySurvey">
+          <div class="row">
+            <!-- Question 1 -->
+            <div class="col-md-6">
+              <h3>In fights, I prefer to..</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="melee" checked />
+                  Move head on in -- Melee
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="ranged" /> Keep a
+                  distance -- Ranged
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question1" value="hybrid" /> Have
+                  options -- Hybrid of Melee & Ranged
+                </label>
+              </div>
+              <br />
+            </div>
+            <!-- Question 2 -->
+            <div class="col-md-6">
+              <h3>Weapons:</h3>
+              <p>Do you prefer to depend on swords & bows, or magic?</p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="cast" checked />
+                  Magic
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="mix" /> A bit of
+                  both
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="trad" />
+                  Traditional
+                </label>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Question 3 -->
+              <h3>Health Points:</h3>
+              <p>
+                Do you prefer to survive by sneaking, staying out of range,
+                reflex and speed, or having enough health to take more hits?
+              </p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="low" checked />
+                  Low HP
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="medium" />
+                  Medium HP
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" value="high" /> High HP
+                </label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <!-- Question 4 -->
+              <h3>Customizability:</h3>
+              <p>How much freedom do you want in customizing your build?</p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="low" checked />
+                  Low. What you start with is what you get.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="medium" /> Medium.
+                  You have options to branch out and choose your specialization.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" value="high" /> High.
+                  Develop your character as you like.
+                </label>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Question 5 -->
+              <h3>Equipment load:</h3>
+              <p>Are you a packrat?</p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="light" checked />
+                  Light
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="medium" /> Medium
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" value="heavy" /> Heavy
+                </label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <!-- Question 6 -->
+              <h3>Comfort with Souls-like RPG games:</h3>
+              <p>
+                Souls-like RPG: a subgenre of Role Playing Games that puts
+                emphasis on dodging and moving over other mechanics
+              </p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question6" value="new" checked />
+                  New Player
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question6" value="vet" /> Veteran
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question6" value="adv" /> Advanced
+                </label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn">
+            Submit. See class recommendation.
+          </button>
+        </form>
       </div>
       <!-- Provide exit, and user cannot continue -->
       <div id="under17">
